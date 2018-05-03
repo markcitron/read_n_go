@@ -1,0 +1,5 @@
+{
+    "name": "logname", 
+    "root_path": "rootpath", 
+    "logname_pattern": "pattern_to_match" 
+}
