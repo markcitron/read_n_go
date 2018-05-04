@@ -1,15 +1,12 @@
 {
     "logs": [
         { 
-            "name": "logname", 
-            "root_path": "rootpath", 
-            "logname_pattern": "pattern_to_match" 
-        },
-        { 
-            "name": "logname", 
-            "root_path": "rootpath", 
-            "logname_pattern": "pattern_to_match" 
+            "name": "sample_log", 
+            "root_path": "./", 
+            "logname_pattern": "**/*.log",
+            "specific_logs": []
         }
 
-    ]
+    ],
+    "active_threshold": 300
 }
